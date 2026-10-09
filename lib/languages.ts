@@ -1,0 +1,25 @@
+export const LANGUAGES = [
+  { id: 'plaintext', label: 'Texto simples' },
+  { id: 'lua', label: 'Lua / Luau (Roblox)' },
+  { id: 'javascript', label: 'JavaScript' },
+  { id: 'typescript', label: 'TypeScript' },
+  { id: 'python', label: 'Python' },
+  { id: 'java', label: 'Java' },
+  { id: 'kotlin', label: 'Kotlin' },
+  { id: 'swift', label: 'Swift' },
+  { id: 'cpp', label: 'C / C++' },
+  { id: 'csharp', label: 'C#' },
+  { id: 'go', label: 'Go' },
+  { id: 'rust', label: 'Rust' },
+  { id: 'php', label: 'PHP' },
+  { id: 'ruby', label: 'Ruby' },
+  { id: 'bash', label: 'Bash / Shell' },
+  { id: 'json', label: 'JSON' },
+  { id: 'xml', label: 'HTML / XML' },
+  { id: 'css', label: 'CSS' },
+  { id: 'sql', label: 'SQL' },
+  { id: 'yaml', label: 'YAML' },
+  { id: 'markdown', label: 'Markdown' },
+] as const;
+
+export const LANGUAGE_IDS: string[] = LANGUAGES.map((l) => l.id);
